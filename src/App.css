@@ -3,7 +3,7 @@ body {
   color: #ffffff;
 }
 
-.movie-app > .row {
+.movie-app > .row { 
   overflow-x: auto;
   flex-wrap: nowrap;
 } 
@@ -11,6 +11,8 @@ body {
 .image-container {
   position: relative;
   transition: transform 0.2s;
+  max-height: 470px;
+  width: auto;
 }
 
 .image-container:hover {
@@ -32,4 +34,8 @@ body {
   font-size: 20px;
   padding: 20px;
   text-align: center;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

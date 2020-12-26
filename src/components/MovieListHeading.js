@@ -1,5 +1,4 @@
 import React from 'react';
-import MovieList from './MovieList';
 
 const MovieListHeading = (props) => {
   return (
