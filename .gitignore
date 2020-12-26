@@ -1,6 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+#eslint
+.eslintcache
+
 # dependencies
+package-lock.json
 /node_modules
 /.pnp
 .pnp.js
